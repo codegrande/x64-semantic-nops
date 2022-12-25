@@ -1,0 +1,13 @@
+{
+    "nops_count": 1,
+    "nops": [
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop"
+            ],
+            "hex_count": 1,
+            "hex": "90"
+        }
+    ]
+}

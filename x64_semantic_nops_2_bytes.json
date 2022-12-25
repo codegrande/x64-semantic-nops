@@ -1,0 +1,149 @@
+{
+    "nops_count": 17,
+    "nops": [
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov eax,eax"
+            ],
+            "hex_count": 2,
+            "hex": "89 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov ebx,ebx"
+            ],
+            "hex_count": 2,
+            "hex": "89 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov ecx,ecx"
+            ],
+            "hex_count": 2,
+            "hex": "89 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov edx,edx"
+            ],
+            "hex_count": 2,
+            "hex": "89 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg ax,ax"
+            ],
+            "hex_count": 2,
+            "hex": "66 90"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg eax,eax"
+            ],
+            "hex_count": 2,
+            "hex": "87 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg ebx,ebx"
+            ],
+            "hex_count": 2,
+            "hex": "87 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg ecx,ecx"
+            ],
+            "hex_count": 2,
+            "hex": "87 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg edx,edx"
+            ],
+            "hex_count": 2,
+            "hex": "87 d2"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "pushf",
+                "popf"
+            ],
+            "hex_count": 2,
+            "hex": "9c 9d"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "push rax",
+                "pop rax"
+            ],
+            "hex_count": 2,
+            "hex": "50 58"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "push rbx",
+                "pop rbx"
+            ],
+            "hex_count": 2,
+            "hex": "53 5b"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "push rcx",
+                "pop rcx"
+            ],
+            "hex_count": 2,
+            "hex": "51 59"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "push rdx",
+                "pop rdx"
+            ],
+            "hex_count": 2,
+            "hex": "52 5a"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "xchg ebx,eax",
+                "xchg ebx,eax"
+            ],
+            "hex_count": 2,
+            "hex": "93 93"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "xchg ecx,eax",
+                "xchg ecx,eax"
+            ],
+            "hex_count": 2,
+            "hex": "91 91"
+        },
+        {
+            "asm_count": 2,
+            "asm": [
+                "xchg edx,eax",
+                "xchg edx,eax"
+            ],
+            "hex_count": 2,
+            "hex": "92 92"
+        }
+    ]
+}

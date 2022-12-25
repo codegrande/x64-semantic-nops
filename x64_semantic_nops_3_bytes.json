@@ -1,0 +1,1029 @@
+{
+    "nops_count": 128,
+    "nops": [
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 1f c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 1f c3"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 1f c1"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 1f c2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov ax,ax"
+            ],
+            "hex_count": 3,
+            "hex": "66 89 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov rax,rax"
+            ],
+            "hex_count": 3,
+            "hex": "48 89 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov bx,bx"
+            ],
+            "hex_count": 3,
+            "hex": "66 89 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov rbx,rbx"
+            ],
+            "hex_count": 3,
+            "hex": "48 89 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov cx,cx"
+            ],
+            "hex_count": 3,
+            "hex": "66 89 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov rcx,rcx"
+            ],
+            "hex_count": 3,
+            "hex": "48 89 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov dx,dx"
+            ],
+            "hex_count": 3,
+            "hex": "66 89 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov rdx,rdx"
+            ],
+            "hex_count": 3,
+            "hex": "48 89 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r8,r8"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r8d,r8d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r9,r9"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r9d,r9d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r10,r10"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r10d,r10d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r11,r11"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r11d,r11d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r12,r12"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r12d,r12d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r13,r13"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r13d,r13d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r14,r14"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r14d,r14d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r15,r15"
+            ],
+            "hex_count": 3,
+            "hex": "4d 89 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "mov r15d,r15d"
+            ],
+            "hex_count": 3,
+            "hex": "45 89 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea eax,[eax]"
+            ],
+            "hex_count": 3,
+            "hex": "67 8d 00"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea rax,[rax]"
+            ],
+            "hex_count": 3,
+            "hex": "48 8d 00"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea ebx,[ebx]"
+            ],
+            "hex_count": 3,
+            "hex": "67 8d 1b"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea rbx,[rbx]"
+            ],
+            "hex_count": 3,
+            "hex": "48 8d 1b"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea ecx,[ecx]"
+            ],
+            "hex_count": 3,
+            "hex": "67 8d 09"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea rcx,[rcx]"
+            ],
+            "hex_count": 3,
+            "hex": "48 8d 09"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea edx,[edx]"
+            ],
+            "hex_count": 3,
+            "hex": "67 8d 12"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea rdx,[rdx]"
+            ],
+            "hex_count": 3,
+            "hex": "48 8d 12"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r8,[r8]"
+            ],
+            "hex_count": 3,
+            "hex": "4d 8d 00"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r9,[r9]"
+            ],
+            "hex_count": 3,
+            "hex": "4d 8d 09"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r10,[r10]"
+            ],
+            "hex_count": 3,
+            "hex": "4d 8d 12"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r11,[r11]"
+            ],
+            "hex_count": 3,
+            "hex": "4d 8d 1b"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r14,[r14]"
+            ],
+            "hex_count": 3,
+            "hex": "4d 8d 36"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r15,[r15]"
+            ],
+            "hex_count": 3,
+            "hex": "4d 8d 3f"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 44 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 44 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 44 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 44 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 45 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 45 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 45 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 45 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 48 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 48 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 48 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 48 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 49 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 49 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 49 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 49 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4f c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4f db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4f c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4f d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4d c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4d db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4d c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4d d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4c c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4c db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4c c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4c d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4e c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4e db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4e c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4e d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 47 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 47 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 47 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 47 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 43 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 43 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 43 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 43 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 42 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 42 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 42 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 42 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 46 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 46 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 46 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 46 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 40 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 40 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 40 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 40 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 41 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 41 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 41 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 41 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4a c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4a db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4a c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4a d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp eax,eax"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4b c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp ebx,ebx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4b db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp ecx,ecx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4b c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp edx,edx"
+            ],
+            "hex_count": 3,
+            "hex": "0f 4b d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg bx,bx"
+            ],
+            "hex_count": 3,
+            "hex": "66 87 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg rbx,rbx"
+            ],
+            "hex_count": 3,
+            "hex": "48 87 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg cx,cx"
+            ],
+            "hex_count": 3,
+            "hex": "66 87 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg rcx,rcx"
+            ],
+            "hex_count": 3,
+            "hex": "48 87 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg dx,dx"
+            ],
+            "hex_count": 3,
+            "hex": "66 87 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg rdx,rdx"
+            ],
+            "hex_count": 3,
+            "hex": "48 87 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r8,r8"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r8d,r8d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r9,r9"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r9d,r9d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r10,r10"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r10d,r10d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r11,r11"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r11d,r11d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r12,r12"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r12d,r12d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r13,r13"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r13d,r13d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r14,r14"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r14d,r14d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r15,r15"
+            ],
+            "hex_count": 3,
+            "hex": "4d 87 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "xchg r15d,r15d"
+            ],
+            "hex_count": 3,
+            "hex": "45 87 ff"
+        }
+    ]
+}

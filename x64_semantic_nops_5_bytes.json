@@ -1,0 +1,1109 @@
+{
+    "nops_count": 138,
+    "nops": [
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c1"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c3"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c5"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "nop r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 41 0f 1f c7"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r12d,[r12d]"
+            ],
+            "hex_count": 5,
+            "hex": "67 45 8d 24 24"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "lea r13d,[r13d]"
+            ],
+            "hex_count": 5,
+            "hex": "67 45 8d 6d 00"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmove r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 44 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovne r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 45 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovs r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 48 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovns r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 49 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovg r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4f ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovge r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4d ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovl r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4c ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovle r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4e ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmova r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 47 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovae r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 43 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovb r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 42 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovbe r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 46 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovo r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 40 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovno r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 41 ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovp r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4a ff"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r8w,r8w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b c0"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r9w,r9w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b c9"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r10w,r10w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b d2"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r11w,r11w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b db"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r12w,r12w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b e4"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r13w,r13w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b ed"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r14w,r14w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b f6"
+        },
+        {
+            "asm_count": 1,
+            "asm": [
+                "cmovnp r15w,r15w"
+            ],
+            "hex_count": 5,
+            "hex": "66 45 0f 4b ff"
+        }
+    ]
+}
