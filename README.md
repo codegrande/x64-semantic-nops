@@ -32,12 +32,12 @@ Files are formated a following:
 }
 ```
 
-`nops_count`: number of NOPs in the file
-`nops`: array containing the NOPs
-`asm_count`: number of instructions for the NOP
-`asm`: array of instructions for the NOP
-`hex_count`: number of bytes for the NOP
-`hex`: bytes for the NOP as a string of hexadecimal values separated by a space
+`nops_count`: number of NOPs in the file  
+`nops`: array containing the NOPs  
+`asm_count`: number of instructions for the NOP  
+`asm`: array of instructions for the NOP  
+`hex_count`: number of bytes for the NOP  
+`hex`: bytes for the NOP as a string of hexadecimal values separated by a space  
 
 ---
 
