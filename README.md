@@ -15,7 +15,7 @@ Semantic NOPs are machine language instructions or combinations of machine langu
 - x64_semantic_nops_8_bytes.json
 - x64_semantic_nops_all.json
 
-Files are formated a following:
+Files are formated as following:
 ```json
 {
     "nops_count": 1,
